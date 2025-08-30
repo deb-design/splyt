@@ -1,10 +1,13 @@
 {
   "name": "splyt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Splyt API test suite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "lint": "eslint . || true",
+    "format": "prettier -w . || true"
   },
   "repository": {
     "type": "git",
@@ -13,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/deb-design/splyt/issues"
   },
