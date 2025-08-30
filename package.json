@@ -1,0 +1,27 @@
+{
+  "name": "splyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deb-design/splyt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deb-design/splyt/issues"
+  },
+  "homepage": "https://github.com/deb-design/splyt#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.5"
+  }
+}
